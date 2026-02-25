@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Imed Kouki",
-    "label": "RPA Developer & Automation Consultant | Master's Thesis Researcher",
+    "label": "Automation Developer",
     "image": "/me.jpg",
     "email": "imed.kouki@ensi-uma.tn",
     "phone": "+216 93 805 433",
@@ -38,7 +38,7 @@
       "highlights": [
         "Design and develop end-to-end automation workflows using UiPath Platform (Studio, Orchestrator, Document Understanding, AI Center) and MS Power Automate, integrating REST APIs, Microsoft Graph API, and Azure cloud services.",
         "Build and maintain integrations with SharePoint, Dataverse, and external APIs using n8n and custom connectors, implementing data pipelines and document processing workflows.",
-        "Delivered and supported over 7 automation projects with focus on ALM best practices and governance, improving operational efficiency across multiple business units and achieving cumulative savings of more than 11 FTEs.",
+        "Delivered and supported over 6 automation projects with focus on ALM best practices and governance, improving operational efficiency across multiple business units and achieving cumulative savings of more than 11 FTEs.",
         "Collaborated with stakeholders to capture requirements, design technical documentation (PDDs, SDDs), and ensure alignment with process governance standards and deployment pipelines."
       ]
     },
