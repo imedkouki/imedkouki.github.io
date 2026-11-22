@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Imed Kouki",
-    "label": "Master’s student in Data Science and Junior RPA Developer",
+    "label": "Développeur Automatisation & Chercheur",
     "image": "public/me.png",
     "email": "imed.kouki@ensi-uma.tn",
     "phone": "+216 93 805 433",
-    "url": "https://github.com/imedkouki",
-    "summary": "Master’s student in Data Science with keen interest in machine learning and automation. Currently working as a Junior RPA Developer, looking to work on projects involving ML or automation, with a focus on both practical applications and research.",
+    "url": "https://imedkouki.github.io/",
+    "summary": "Développeur RPA alliant recherche en modélisation de processus métier par LLM et expérience industrielle de l’automatisation d’entreprise avec UiPath et Microsoft Power Automate. Prend en charge le cycle de vie de l’automatisation de bout en bout, de l’analyse des processus et de la conception des solutions jusqu’aux tests, au déploiement et au support en production, et travaille avec les API REST, n8n, les LLM et les systèmes agentiques et multi-agents. Diplômé d’un Master de Recherche, avec un mémoire sur les approches agentiques pour la génération de modèles de processus BPMN, publié à ICAART 2026.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,117 +30,263 @@
   "work": [
     {
       "name": "TUI Group",
-      "position": "Junior RPA Developer",
-      "url": "",
+      "position": "Développeur RPA",
+      "url": "https://www.tui.com/",
+      "location": "Télétravail, Tunisie",
       "startDate": "2023-12-01",
       "endDate": null,
-      "summary": "Spearheaded automation enhancements that streamlined processes handling 15,000 bookings/year, achieving an estimated FTE saving of 5.7 and cost reduction annually using MS Power Automate.",
+      "summary": "Automatisation RPA et intelligente en entreprise sur l’ensemble du cycle de vie (analyse, conception, développement, tests, déploiement, support) avec UiPath et Power Automate.",
       "highlights": [
-        "Reduced error rates and achieved a handling time reduction from 40 minutes per case to an average of 6 minutes per booking.",
-        "Collaborated closely with responsible analysts and business collaborators to ensure seamless integration and functionality."
+        "Livré 18+ projets d’automatisation, avec jusqu’à 70 % de réduction du temps de traitement, plus de 95 % de précision et des économies cumulées supérieures à 11 ETP.",
+        "Optimisé un processus de réservation de 15 000 dossiers par an avec Power Automate, en réduisant le temps de traitement de 40 minutes à environ 6 minutes par réservation, en diminuant les erreurs et en économisant environ 5,7 ETP.",
+        "Animé des ateliers de recueil des besoins et de conception avec les parties prenantes métier et les analystes, et produit des PDD et SDD alignés BPMN, conformes aux standards de gouvernance des processus et aux pipelines de déploiement.",
+        "Dispensé des formations et des sessions de transfert de connaissances aux équipes clientes pour une passation fluide.",
+        "Développé des workflows d’automatisation de bout en bout sur UiPath (Studio, Orchestrator, Document Understanding, AI Center) et Power Automate, intégrant des API REST, Microsoft Graph, SharePoint, Dataverse, SQL Server et des services Azure.",
+        "Conçu des pipelines ETL avec Power Automate, PowerShell et SQL Server pour extraire et transformer des données ERP vers des workflows automatisés SharePoint et Dataverse, et construit des pipelines de données et des workflows de traitement de documents avec n8n et des connecteurs personnalisés.",
+        "Mis en place des bibliothèques de composants UiPath réutilisables et des stratégies de tests standardisées (unitaires, intégration, mocks), réduisant l’effort de développement de 30 à 40 %.",
+        "Conçu des solutions d’automatisation agentique avec UiPath Maestro et n8n, combinant agents IA, API, workflows RPA et pipelines Document Understanding.",
+        "Supervisé et maintenu les automatisations en production, avec diagnostic des incidents et améliorations de fiabilité et de performance.",
+        "Appliqué les bonnes pratiques ALM et de gouvernance avec Git, GitLab et CI/CD, et coordonné la livraison dans Jira (planification des sprints, suivi des tâches, gestion des défauts)."
       ]
     },
     {
-      "name": "ADACTIM — WEEVIO Group",
-      "position": "RPA Developer Intern",
+      "name": "LARIA, ENSI (University of Manouba)",
+      "position": "Stagiaire de recherche (Mémoire de Master)",
       "url": "",
+      "location": "Manouba, Tunisie",
+      "startDate": "2025-05-01",
+      "endDate": "2025-12-01",
+      "summary": "Recherche de mémoire de Master sur la génération agentique de modèles de processus BPMN à partir du langage naturel avec des LLM.",
+      "highlights": [
+        "Développé des systèmes agentiques de génération automatisée de modèles de processus BPMN avec des architectures multi-agents LangChain et LangGraph, en me concentrant sur la validation de schémas, le prompting systématique et la fiabilité de la synthèse texte-vers-modèle.",
+        "Construit des pipelines RAG avec des embeddings Mistral pour réduire la dépendance à la fenêtre de contexte, ainsi que des workflows de traitement de texte (découpage et nettoyage des données) en amont de l’exécution des agents.",
+        "Prototypé l’orchestration de pipelines avec n8n par expérimentation rapide.",
+        "Réalisé une interface web avec bpmn.io pour la visualisation et l’interaction avec les modèles BPMN.",
+        "Utilisé LangSmith pour le traçage, l’analyse des performances et le benchmarking du comportement des agents sur les modèles Mistral (Large et Medium) et plusieurs configurations.",
+        "Publié la recherche à ICAART 2026 (18th International Conference on Agents and Artificial Intelligence)."
+      ]
+    },
+    {
+      "name": "ADACTIM | WEEVIO Group",
+      "position": "Développeur RPA stagiaire",
+      "url": "https://adactim.com/en/",
+      "location": "Ariana, Tunisie",
       "startDate": "2023-01-01",
       "endDate": "2023-06-01",
-      "summary": "Collaborated with business analysts to identify automation opportunities and convert requirements into technical specifications.",
+      "summary": "Collaboration avec des analystes métier pour identifier des opportunités d’automatisation et transformer les besoins en spécifications techniques.",
       "highlights": [
-        "Configured and deployed a GLPI container using Docker/Docker Compose on Windows (Ubuntu on WSL2).",
-        "Developed and tested UiPath-based automation solutions to streamline supervision processes."
+        "Produit des PDD avec diagrammes BPMN pour des processus de supervision.",
+        "Développé, testé et déployé des workflows d’automatisation UiPath alignés avec les besoins métier.",
+        "Configuré et déployé un conteneur GLPI avec Docker et Docker Compose sous Windows (Ubuntu sur WSL2), avec une première expérience des processus de support IT et de l’infrastructure technique."
       ]
     },
     {
-      "name": "DRÄXLMAIER — Group SATS",
-      "position": "IT Intern",
+      "name": "DRÄXLMAIER | Group SATS",
+      "position": "Stagiaire IT",
       "url": "",
+      "location": "Siliana, Tunisie",
       "startDate": "2021-09-01",
       "endDate": "2021-10-01",
-      "summary": "Acquired practical experience in switch configuration and gained proficiency in utilizing Packet Tracer for network simulations.",
-      "highlights": []
+      "summary": "Expérience pratique en infrastructure réseau.",
+      "highlights": [
+        "Configuré des commutateurs réseau et réalisé des simulations réseau avec Cisco Packet Tracer."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "National School of Computer Science (ENSI) - University of Manouba",
+      "institution": "École Nationale des Sciences de l’Informatique (ENSI) - Université de la Manouba",
       "url": "",
-      "area": "Data Science",
-      "studyType": "Master’s",
+      "area": "Master de Recherche en Informatique",
+      "studyType": "Master",
       "startDate": "2023",
-      "endDate": null,
+      "endDate": "2025-10-01",
       "score": "",
       "courses": [
-        "Machine & Deep Learning",
-        "Probability",
-        "Statistics",
-        "Expert Systems",
-        "3D-4D Computer Vision",
-        "Multidimensional Signal Processing"
+        "Apprentissage automatique",
+        "Apprentissage profond",
+        "Probabilités & Statistiques",
+        "Systèmes experts",
+        "Vision par ordinateur",
+        "Traitement du signal"
       ]
     },
     {
-      "institution": "Higher Institute Of Technological Studies (Rades/Siliana Branch)",
+      "institution": "Institut Supérieur des Études Technologiques (ISET Rades / Siliana)",
       "url": "",
-      "area": "Information Technology",
-      "studyType": "Bachelor’s",
+      "area": "Licence en Technologies de l’Informatique",
+      "studyType": "Licence",
       "startDate": "2020",
       "endDate": "2023",
-      "score": "",
+      "score": "17.01/20",
       "courses": [
-        "Object-oriented Programming",
-        "Software Architecture",
-        "Networking",
-        "Operating Systems",
+        "Programmation orientée objet",
+        "Architecture logicielle",
+        "Réseaux",
+        "Systèmes d’exploitation",
         "Big Data",
-        "Service-oriented Architecture"
+        "Architecture orientée services"
       ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Diplômé avec mention Très Bien, classé 1er de la promotion",
+      "date": "2023",
+      "awarder": "Institut Supérieur des Études Technologiques (ISET)",
+      "summary": "Moyenne de dernière année de 17,01/20."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Automated BPMN Model Generation from Natural Language",
+      "publisher": "ICAART 2026 - 18th International Conference on Agents and Artificial Intelligence",
+      "releaseDate": "2026",
+      "url": "https://www.scitepress.org/Papers/2026/144765/144765.pdf",
+      "summary": "Problème : la construction manuelle de diagrammes BPMN est longue et sujette aux erreurs ; ce travail étudie comment les grands modèles de langage peuvent l’automatiser à partir de descriptions textuelles de processus. Approche : synthèse texte-vers-modèle par prompt engineering systématique et architectures multi-agents, combinée à une validation de schémas afin que les modèles BPMN générés soient syntaxiquement corrects et conformes au standard."
     }
   ],
   "certificates": [
     {
-      "name": "AI Accelerator",
-      "date": "2024",
-      "issuer": "AI Launchlab - Dawson College - Mitacs",
-      "url": ""
+      "name": "Certified Professional - Automation Developer Professional v1.0 (UiADPv1)",
+      "date": "2026-09-16",
+      "issuer": "UiPath",
+      "url": "https://cp.certmetrics.com/uipath/en/public/badge/c?id=UIP00235136&ccat=9&date=2026-9-16",
+      "skills": "UiPath Studio · Orchestrator · Bonnes pratiques de développement d’automatisation"
     },
     {
       "name": "DevNet Associate",
       "date": "2023-01",
       "issuer": "Cisco Networking Academy",
-      "url": ""
+      "url": "",
+      "skills": "JSON/XML · API REST · Git · Docker · Automatisation réseau"
+    },
+    {
+      "name": "Certificat de formation en IA et d’achèvement de projet (AI Accelerator)",
+      "date": "2024",
+      "issuer": "AI Launchlab - Dawson College - Mitacs",
+      "url": "https://drive.google.com/file/d/15FpaDYFivwSoVqlc9ErdfuR4FC2VaFI_/view",
+      "skills": "LangChain · LLM · API · Systèmes d’IA"
     }
   ],
   "projects": [
     {
-      "name": "Image Classification with CNN using PyTorch",
+      "name": "Text-to-Process Model Generation",
       "isActive": true,
-      "description": "Developed a convolutional neural network (CNN) model for image classification using PyTorch, focusing on optimizing accuracy through hyperparameter tuning and data augmentation.",
+      "url": "https://github.com/being3iimed/Text-to-process-model",
+      "github": "https://github.com/being3iimed/Text-to-process-model",
+      "description": "Approches agentiques de génération de modèles de processus BPMN avec des systèmes multi-agents LangChain/LangGraph et du prompt engineering. Pipelines RAG avec les modèles Mistral (Large/Medium) et des embeddings Mistral, LangSmith pour le traçage et le benchmarking, et interface web bpmn.io pour la visualisation des processus. Base du mémoire de Master publié à ICAART 2026.",
+      "highlights": [
+        "Systèmes multi-agents avec LangChain/LangGraph",
+        "Pipelines RAG avec embeddings Mistral",
+        "Traçage et benchmarking avec LangSmith",
+        "Intégration de l’interface bpmn.io",
+        "Orchestration de pipelines avec n8n",
+        "Validation de schémas des modèles BPMN générés"
+      ]
+    },
+    {
+      "name": "SVD-Based ICP Algorithm",
+      "isActive": false,
+      "url": "https://github.com/being3iimed/ICP-Iterative-Closest-Point-Algorithm",
+      "github": "https://github.com/being3iimed/ICP-Iterative-Closest-Point-Algorithm",
+      "description": "Implémentation de l’algorithme Iterative Closest Point (ICP), utilisé pour le recalage de nuages de points 3D.",
+      "highlights": []
+    },
+    {
+      "name": "Classification d’images avec un CNN (PyTorch)",
+      "isActive": true,
+      "url": "",
+      "description": "Développement d’un réseau de neurones convolutif (CNN) pour la classification d’images avec PyTorch, en optimisant la précision par l’ajustement des hyperparamètres et l’augmentation de données.",
       "highlights": []
     }
   ],
   "skills": [
     {
-      "name": "Languages",
-      "level": "",
-      "keywords": ["Python", "C++", "JAVA"]
-    },
-    {
-      "name": "Tools/Frameworks",
+      "name": "Langages",
       "level": "",
       "keywords": [
+        "Python",
+        "C#",
+        "VB.NET",
+        "Java",
+        "C++",
+        "TypeScript/JavaScript",
+        "PowerShell"
+      ]
+    },
+    {
+      "name": "Automatisation",
+      "level": "",
+      "keywords": [
+        "UiPath Platform (Studio, Orchestrator, Action Center, Document Understanding, AI Center, Assistant, Maestro)",
+        "Power Automate (Desktop & Cloud)",
         "Power Apps",
-        "UiPath",
+        "n8n"
+      ]
+    },
+    {
+      "name": "Intégration & Données",
+      "level": "",
+      "keywords": [
+        "API REST",
+        "API Microsoft Graph",
+        "SQL Server",
+        "SharePoint",
+        "Dataverse",
+        "Azure",
+        "ETL",
+        "FastAPI",
+        "React"
+      ]
+    },
+    {
+      "name": "IA/ML",
+      "level": "",
+      "keywords": [
+        "Intégration de LLM",
+        "Prompt engineering",
+        "Systèmes multi-agents",
+        "Pipelines RAG",
+        "LangChain/LangGraph",
+        "LangSmith",
+        "Modèles Mistral",
+        "Traitement de documents",
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "Ingénierie & Processus",
+      "level": "",
+      "keywords": [
+        "Git",
+        "GitLab",
         "Docker",
-        "GIT",
-        "Langchain",
-        "Pytorch",
-        "Jupyter"
+        "Postman",
+        "Jira",
+        "Jupyter",
+        "CI/CD",
+        "ALM",
+        "Tests unitaires et d’intégration",
+        "BPMN",
+        "Optimisation des processus"
       ]
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "language": "Arabe",
+      "fluency": "Langue maternelle"
+    },
+    {
+      "language": "Français",
+      "fluency": "Professionnel"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Professionnel"
+    }
+  ],
   "interests": [],
   "references": []
 }
